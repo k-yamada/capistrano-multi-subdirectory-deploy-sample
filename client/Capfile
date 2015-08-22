@@ -12,7 +12,7 @@ Dir.glob('lib/capistrano/tasks/*.rake').each { |r| import r }
 require 'capistrano/git'
 
 class Capistrano::Git
-  module SubDirectoryStrategy
+  module MultiSubDirectoryStrategy
     include DefaultStrategy
 
     def release
