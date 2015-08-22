@@ -5,6 +5,8 @@ set :application, 'client'
 set :repo_url, 'https://github.com/k-yamada/capistrano-multi-subdirectory-deploy-sample.git'
 
 set :deploy_to, '/tmp/capistrano-multi/client'
+set :git_strategy, Capistrano::Git::SubDirectoryStrategy
+set :project_root, 'client'
 set :keep_releases, 5
 
 set :linked_dirs, %w{../server}
