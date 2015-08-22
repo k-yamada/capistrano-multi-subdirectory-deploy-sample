@@ -7,7 +7,7 @@ set :repo_url, 'https://github.com/k-yamada/capistrano-multi-subdirectory-deploy
 set :deploy_to, '/tmp/capistrano-multi/client'
 set :keep_releases, 5
 
-set :linked_dirs, %w{bin log tmp/backup tmp/pids tmp/cache tmp/sockets vendor/bundle}
+set :linked_dirs, %w{../server}
 
 set :bundle_jobs, 4
 
