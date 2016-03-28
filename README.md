@@ -4,7 +4,7 @@
 
 [capistrano3で指定したサブディレクトリだけデプロイする方法](http://qiita.com/k-yamada@github/items/a831ba87668c2e71dc70)
 
-# Mac OS Xでローカルホストにcapistraのでデプロイする方法
+# Mac OS Xでローカルホストにcapistranoでデプロイする方法
 
 参考: http://qiita.com/k_yagisan9/items/5c9c4db0d612f69bb7ad
 
